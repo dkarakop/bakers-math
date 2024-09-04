@@ -1,6 +1,6 @@
 # Baker's Math
 
-[View live](https://dkarakop.github.io/bakers-math.git/)
+[View live](https://dkarakop.github.io/bakers-math/)
 
 **Bakers'Math** is a simple web application designed for bread lovers who want to make their own bread with precise ingredient calculations. This app helps you calculate the necessary amounts of the four essential bread ingredients: flour, water, salt, and sourdough starter.
 
