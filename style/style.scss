@@ -1,0 +1,37 @@
+@use "./colors.scss" as colors;
+@use "./fonts.scss" as fonts;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: fonts.$font-family-main;
+	font-weight: fonts.$font-weight-main;
+	font-style: fonts.$font-style-main;
+	display: flex;
+	justify-content: center;
+
+	.card {
+		margin-top: 3rem;
+		padding: 3rem 5rem;
+		background-color: blue;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 5px solid black;
+		.card-header {
+			text-align: center;
+			#header {
+				font-family: fonts.$font-family-main;
+				font-style: fonts.$font-style-header;
+				font-size: 3rem;
+			}
+			img {
+				width: 30%;
+			}
+		}
+	}
+}
