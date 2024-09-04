@@ -10,18 +10,20 @@ body {
 	font-family: fonts.$font-family-main;
 	font-weight: fonts.$font-weight-main;
 	font-style: fonts.$font-style-main;
+	background-color: colors.$background-color;
 	display: flex;
 	justify-content: center;
 
 	.card {
-		margin-top: 3rem;
+		margin: 3rem 0;
 		padding: 3rem 5rem;
-		background-color: blue;
+		background-color: colors.$background-card;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		border: 5px solid black;
+		border-radius: 5px;
 		.card-header {
 			text-align: center;
 			#header {
@@ -31,6 +33,41 @@ body {
 			}
 			img {
 				width: 30%;
+			}
+		}
+		.card-content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			ul {
+				list-style-type: none;
+				.ingredient {
+					font-size: 1.3rem;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					img {
+						width: 10%;
+					}
+					input {
+						font-size: 1rem;
+						text-align: center;
+						margin: 0.5rem;
+						padding: 0.4rem 0;
+						width: 100%;
+						border-radius: 5px;
+					}
+				}
+			}
+			.btn-calculate {
+				font-family: fonts.$font-family-main;
+				font-weight: fonts.$font-weight-main;
+				font-style: fonts.$font-style-main;
+				font-size: 1.5rem;
+				margin: 1rem 0;
+				padding: 0.5rem 1rem;
+				border-radius: 5px;
 			}
 		}
 	}

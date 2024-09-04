@@ -1,2 +1,4 @@
 *.css.map
 *.tmp.jpg
+*.css
+!style.css
