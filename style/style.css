@@ -8,7 +8,7 @@ body {
   font-family: "Kalam", cursive;
   font-weight: 400;
   font-style: normal;
-  background-color: #ff8d00;
+  background-color: #ffca00;
   display: flex;
   justify-content: center;
 }
@@ -65,7 +65,12 @@ body .card .card-content .btn-calculate {
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
+  background-color: #ff8d00;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+}
+body .card .card-content .btn-calculate:hover,
+body .card .card-content .btn-calculate:focus {
+  background-color: #ffca00;
 }/*# sourceMappingURL=style.css.map */

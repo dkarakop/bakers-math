@@ -65,9 +65,15 @@ body {
 				font-weight: fonts.$font-weight-main;
 				font-style: fonts.$font-style-main;
 				font-size: 1.5rem;
+				background-color: colors.$btn;
+
 				margin: 1rem 0;
 				padding: 0.5rem 1rem;
 				border-radius: 5px;
+			}
+			.btn-calculate:hover,
+			.btn-calculate:focus {
+				background-color: colors.$background-color;
 			}
 		}
 	}
